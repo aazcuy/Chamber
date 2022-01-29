@@ -18,44 +18,50 @@
 <body>
     
     <header>
-        <h1>Ibague Chamber of Commerce</h1>
-            
-        <h3>Logo</h3>
 
-        <img id="logo-img" src="images/ocobotree.png" alt="Ocobo Tree Image">
+        <img class="logo" src="images/ocobotree.png" alt="Ocobo Tree Image">
+    
+        <nav>
+            <ul class="nav-bar">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+           <li><a href="">Discover</a></li>
+           <li><a href="">Directory</a></li>
+           <li><a href="">Join</a></li>
+           <li><a href="">Contact</a></li>
+        </ul>
+        </nav>
+
+        <img class="facebook" src="images/fblogo.png" alt="Facebook Logo">
+        <img class="linkedin" src="images/LI-In-Bug.png" alt="LinkedIn Image">
 
     </header>
 
-    <nav>
-        <div><a href="">Discover</a></div>
-        <div><a href="">Directory</a></div>
-        <div><a href="">Join</a></div>
-        <div><a href="">Contact</a></div>
-    </nav>
 
 <main>
     
-    <div id="hero-section"><h3>Hero with site name and call to action</h3></div>
+    <div class="hero-section">Hero with site name and call to action</div>
 
-    <div id="event-section"><h3>Event</h3></div>
+    <div class="event-section">Event</div>
 
-    <div id="weather-section"><h3>Weather</h3></div>
-
-    <div id="news-section"><h3>News Release</h3></div>
+    <div class="weather-section">Weather</div>
     
-    <section id="spotlight-section">
+    <div class="join-section">Join</div>
 
-        <div id="spo1-section"><h3>Spotlight 1</h3></div>
-        <div id="spo2-section"><h3>Spotlight 2</h3></div>
-    </section>
+    <div class="news-section">News Release</div>
+    
+    <div class="spotlight-section">
+        <div class="container-spo"></div>
+        <div class="spo1-section">Spotlight 1</div>
+        <div class="spo2-section">Spotlight 2</div>
+        <div class="spo3-section">Spotlight 3</div>
+
+    </div>
 
 
 </main>
 <footer>
 
-    <img id="footer-img" src="images/ocobotree.png" alt="Ocobo Tree Image">
-
-    <h3>Ibague Chamber of Commerce</h3>
+    <img class="footer-img" src="images/ocobotree.png" alt="Ocobo Tree Image">
 
     <p id="address-footer">Cra. 8 #60-55, Ibagué, Tolima </p>
 
@@ -64,12 +70,14 @@
     <br>
     
     +57 320 234 5678</p>
-
-    <script src="js/script.js"></script>
-    <a href="https://aazcuy.github.io/webfrontend230/">| Home</a>
+    </footer>
+<div class="bottomfooter">
+<section><script src="js/script.js"></script></section>
+<a class="footerinfo" href="https://aazcuy.github.io/webfrontend230/"> Home</a>
 
 <div id="lastModif"></div>
 <button class="button" onclick="lastEdit()">See Last Modified</button>
+</div>
 
 </body>
 </html>

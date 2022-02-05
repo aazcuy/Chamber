@@ -62,7 +62,6 @@
 	.hero-section{
 		grid-column: 2 / 4;
     	grid-row: 1/3;
-		margin:0;
 		overflow: hidden;
 		text-align: center;
 		position: relative;
@@ -140,28 +139,33 @@
 
 	.spotlight-section{
 		display:grid;
-		grid-template-columns: 1;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 300px 300px 300px;
-		margin: 15px;
-
 	}
 
 	.container-spo{
-		grid-column: 1;
+		grid-column: 4;
 		grid-row: 1/4;
-		margin: -15px;
+		margin: 10px;
 		background-color: var(--dark-green);
 		border-radius: 10px;
+		margin-top:-960px;
+		margin-bottom: 940px;
+
 	}
 
 	.spo1-section {
-		grid-column: 1;
+		grid-column: 4;
 		grid-row:1;
 		background-color: var(--light-green);
 		overflow: hidden;
 		text-align: center;
 		position: relative;
 		border-radius: 10px 10px 0px 0px;
+		margin: 20px;
+		margin-top:-935px;
+		margin-bottom: 970px;
+		
 	}
 	
 
@@ -169,13 +173,16 @@
 
 
 	.spo2-section{
-		grid-column: 1;
+		grid-column: 4;
 		grid-row:2;
 		background-color: var(--light-green);
 		overflow: hidden;
 		text-align: center;
 		position: relative;
-		
+		margin: 20px;
+		margin-top:-940px;
+		margin-bottom: 970px;
+
 	}
 
 	
@@ -183,13 +190,17 @@
 
 	.spo3-section{
 		display:block;
-		grid-column: 1;
+		grid-column: 4;
 		grid-row:3;
 		background-color: var(--light-green);
 		overflow: hidden;
 		text-align: center;
 		position: relative;
 		border-radius: 0px 0px 10px 10px;
+		margin: 20px;
+		margin-top:-935px;
+		margin-bottom: 970px;
+
 	}
 
 	.spo3-section img{
@@ -222,7 +233,7 @@
 		padding:auto;
 		background-color:var(--light-green) ;
 		align-items: center;
-        border-bottom: solid 1px #1F2421;
+        
 
 	}
 

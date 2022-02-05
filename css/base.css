@@ -72,7 +72,7 @@
         padding: 10px 5px;
     }
 
-    main{
+    .mainsections{
 		display: grid;
 		grid-template-columns: 100%;
 		grid-template-rows: 300px 300px 300px 300px;

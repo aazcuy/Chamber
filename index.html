@@ -20,7 +20,7 @@
     
     <header>
 
-        <img class="logo" src="images/ocobotree.png" alt="Ocobo Tree Image">
+        <img class="logo" src="images/ocobotree.webp" alt="Ocobo Tree Image">
     
         <nav>
             <ul class="nav-bar">
@@ -42,7 +42,7 @@
     <div class="main">
     <div class="mainsections">
     <div class="hero-section">
-        <img src="images/cityimage.jpg" alt="Image of City">
+        <img src="images/wdd230-org.jpg" alt="Image of City">
         <div class="hero-text">Ibague Chamber of Commerce</div>
     </div>
 
@@ -53,8 +53,9 @@
 
     <div class="weather-section">
         <img src="images/weather.png" alt="Weather Icon">
-        <div class="weather-text">22&#176 C </div><br><div class="city-text">Ibague, Colombia</div>
-
+        <div class="weather-text"><span id="temperature">22</span>&#176C </div><br><div class="wind-speed">Wind Speed: <span id="windSpeed">2</span>km/h</div>
+        Wind Chill:<div id="wind-chill"></div><button type="button" onclick="doInputOutput()">Check Wind Chill</button>
+        <script src="js/windChill.js"></script>
     </div>
     
     <div class="join-section">
@@ -71,7 +72,10 @@
     <div class="spotlight-section">
         <div class="container-spo"></div>
         <div class="spo1-section">
-            <img src="images/bakery.jpg" alt="Bakery Logo">
+                
+                    <img src="images/bakery.jpg" alt="Bakery Logo">
+
+               
             <div class="bakery-title">Acosta's Bakery</div><br><div class="bakery-text">+57 123-3456-789</div>
         </div>
         <div class="spo2-section">
@@ -90,7 +94,7 @@
 </main>
 <footer>
 
-    <img class="footer-img" src="images/ocobotree.png" alt="Ocobo Tree Image">
+    <img class="footer-img" src="images/ocobotree.webp" alt="Ocobo Tree Image">
 
     <p class="address-footer">Cra. 8 #60-55, Ibagué, Tolima </p>
 
@@ -102,7 +106,6 @@
     </footer>
 <div class="bottomfooter">
 <section><script src="js/script.js"></script></section>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <a class="footerinfo" href="https://aazcuy.github.io/webfrontend230/"> Home</a>
 
 <div id="lastModif"></div>

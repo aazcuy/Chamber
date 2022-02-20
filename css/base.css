@@ -63,12 +63,15 @@
         color: var(--white);
         padding: 10px 5px;
     }
+
+
 	p#date-now{
 		text-align: center;
 		display: block;
 		padding: 5px;
-		background-color: var(--light-green);
+		background-color: var(--dark-green);
 		margin:0;
+		color: #ffffff;
 		
 	}
 
@@ -314,7 +317,70 @@
 		
 	}
 
+	h2{
+		font-size: 1.8rem;
+		text-align: center;
+	}
 
+	.pictures{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-row: 1fr 1fr 1fr;
+		gap: 20px;
+		
+
+	}
+
+	picture img{
+		max-width: 100%;
+	}
+
+	.pic1{
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.pic2{
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.pic3{
+		grid-column: 3;
+		grid-row: 1;
+	}
+	.pic4{
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.pic5{
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.pic6{
+		grid-column: 3;
+		grid-row: 2;
+	}
+	.pic7{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	.pic8{
+		grid-column: 2;
+		grid-row: 3;
+	}
+	.pic9{
+		grid-column: 3;
+		grid-row: 3;
+	}
+
+	p#visits-user{
+		text-align: center;
+		display: block;
+		padding: 10px;
+		background-color: var(--dark-green);
+		margin:0;
+		color: #ffffff;
+		
+	}
 
     .button{
         background-color:var(--white); 

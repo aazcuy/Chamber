@@ -16,7 +16,8 @@
     <script src="js/date.js"></script>
     <script src="js/visits.js"></script>
     
-    <title>Ibague Chamber of Commerce</title>
+    
+    <title>Discover Ibague Chamber of Commerce</title>
 </head>
 <body>
     
@@ -27,7 +28,7 @@
         <nav class="nav-bar">
             <ul class="nav-list">
             <li class="list-item"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-           <li class="list-item"><a href="discover.html">Discover</a></li>
+           <li class="list-item"><a href="">Discover</a></li>
            <li class="list-item"><a href="">Directory</a></li>
            <li class="list-item"><a href="">Join</a></li>
            <li class="list-item"><a href="">Contact</a></li>
@@ -44,61 +45,51 @@
         </div>
 
 <main>
-    <div class="mainsections">
-    <div class="hero-section">
-        <img src="images/cityimage.jpg" alt="Image of City">
-        <div class="hero-text">Ibague Chamber of Commerce</div>
-    </div>
+ <h2>Discover Ibague</h2>  
+ 
+ <div class="pictures">
+ <picture class="pic1">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia1.jpg" alt="Nature">
+ </picture>
 
-    <div class="event-section">
-        <img src="images/calendar.png" alt="Calendar Icon">
-        <div class="event-text">Join us on July 10th for our Annual Conference 2022 <br><a href="">More Info...</a></div>
+ <picture class="pic2">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia2.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic3">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia3.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic4">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia4.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic5">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia5.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic6">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia6.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic7">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia7.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic8">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia8.jpg" alt="Nature">
+ </picture>
+
+ <picture class="pic9">
+    <img src="https://via.placeholder.com/400x300?text=Load+Image+Now" data-src="images/colombia9.jpg" alt="Nature">
+ </picture>
 </div>
-
-    <div class="weather-section">
-        <img src="images/weather.png" alt="Weather Icon">
-        <div class="weather-text"><span id="temperature">22</span>&#176C </div><br><div class="wind-speed">Wind Speed: <span id="windSpeed">2</span>km/h</div>
-        Wind Chill:<div id="wind-chill"></div><button class="button" onclick="doInputOutput()">Check Wind Chill</button>
-        <script src="js/windChill.js"></script>
-    </div>
-    
-    <div class="join-section">
-        <img src="images/join.png" alt="Join Icon">
-        <div class="join-text">Click Here if you want to receive emails and updates from us. </div>
-        <button class="button">Join Now</button>
-    </div>
-
-    <div class="news-section">
-        <img src="images/news.png" alt="News Icon">
-        <div class="news-title">Innovation in Tolima </div><br><div class="news-text">Pacts for innovation comes to Tolima as a commitment to <br>strenghten the innovative culture in companies.</div>
-    </div>
-   
-    
-        <div class="container-spo"></div>
-        <div class="spo1-section">
-                
-                    <img src="images/bakery.jpg" alt="Bakery Logo">
-
-               
-            <div class="bakery-title">Acosta's Bakery</div><br><div class="bakery-text">+57 123-3456-789</div>
-        </div>
-        <div class="spo2-section">
-            <img src="images/carshop.png" alt="Car Logo">
-            <div class="car-title">Car Shop</div><br><div class="car-text">+57 123-3456-789</div>
-        </div>
-        <div class="spo3-section">
-            <img src="images/clothing.jpg" alt="Clothing Logo">
-            <div class="clothes-title">Clothing Store</div><br><div class="clothes-text">+57 123-3456-789</div>
-        
-    
-    </div>
-    
-
 
 </main>
 <p id="visits-user"><span class="label">Number of Visits: </span><span class="visits"></span>
    <br> Current Page Load Timestamp: <span class="today"></span> in milliseconds.
 </p>
+<script src="js/lazyLoad.js"></script>
 <footer>
 
     <img class="footer-img" src="images/ocobotree.webp" alt="Ocobo Tree Image">
@@ -120,5 +111,6 @@
 </div>
 <script>checkDate()</script>
 <script>visitCount()</script>
+
 </body>
 </html>

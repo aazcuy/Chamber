@@ -65,13 +65,11 @@
 		
 	}
 
-	p#date-now{
-		text-align: center;
-		display: block;
-		padding: 5px;
-		background-color: var(--light-green);
-		margin:0;
-		
+	picture:hover{
+		opacity: 0.3;
+	}
+	.pictures{
+		margin-left: 50px;
 	}
 
 	.mainsections{

@@ -13,6 +13,7 @@
     <link type="text/css" rel="stylesheet" href="css/base.css">
     <link type="text/css" rel="stylesheet" href="css/medium.css">
     <link type="text/css" rel="stylesheet" href="css/large.css">
+    <script src="js/date.js"></script>
     
     <title>Ibague Chamber of Commerce</title>
 </head>
@@ -22,27 +23,29 @@
 
         <img class="logo" src="images/ocobotree.webp" alt="Ocobo Tree Image">
     
-        <nav>
-            <ul class="nav-bar">
-            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-           <li><a href="">Discover</a></li>
-           <li><a href="">Directory</a></li>
-           <li><a href="">Join</a></li>
-           <li><a href="">Contact</a></li>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+            <li class="list-item"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+           <li class="list-item"><a href="">Discover</a></li>
+           <li class="list-item"><a href="">Directory</a></li>
+           <li class="list-item"><a href="">Join</a></li>
+           <li class="list-item"><a href="">Contact</a></li>
         </ul>
+
         </nav>
-
-        <img class="facebook" src="images/fblogo.png" alt="Facebook Logo">
-        <img class="linkedin" src="images/LI-In-Bug.png" alt="LinkedIn Image">
-
+        
     </header>
-
+    <p id="date-now"></p>
+        <div class="social">
+            
+            <a href=""><img class="facebook" src="images/fblogo.png" alt="Facebook Logo"></a>
+            <a href=""><img class="linkedin" src="images/LI-In-Bug.png" alt="LinkedIn Image"></a>
+        </div>
 
 <main>
-    <div class="main">
     <div class="mainsections">
     <div class="hero-section">
-        <img src="images/wdd230-org.jpg" alt="Image of City">
+        <img src="images/cityimage.jpg" alt="Image of City">
         <div class="hero-text">Ibague Chamber of Commerce</div>
     </div>
 
@@ -54,7 +57,7 @@
     <div class="weather-section">
         <img src="images/weather.png" alt="Weather Icon">
         <div class="weather-text"><span id="temperature">22</span>&#176C </div><br><div class="wind-speed">Wind Speed: <span id="windSpeed">2</span>km/h</div>
-        Wind Chill:<div id="wind-chill"></div><button type="button" onclick="doInputOutput()">Check Wind Chill</button>
+        Wind Chill:<div id="wind-chill"></div><button class="button" onclick="doInputOutput()">Check Wind Chill</button>
         <script src="js/windChill.js"></script>
     </div>
     
@@ -68,8 +71,8 @@
         <img src="images/news.png" alt="News Icon">
         <div class="news-title">Innovation in Tolima </div><br><div class="news-text">Pacts for innovation comes to Tolima as a commitment to <br>strenghten the innovative culture in companies.</div>
     </div>
-    </div>
-    <div class="spotlight-section">
+   
+    
         <div class="container-spo"></div>
         <div class="spo1-section">
                 
@@ -85,10 +88,10 @@
         <div class="spo3-section">
             <img src="images/clothing.jpg" alt="Clothing Logo">
             <div class="clothes-title">Clothing Store</div><br><div class="clothes-text">+57 123-3456-789</div>
-        </div>
+        
+    
     </div>
-
-    </div>
+    
 
 
 </main>
@@ -111,6 +114,6 @@
 <div id="lastModif"></div>
 <button class="button" onclick="lastEdit()">See Last Modified</button>
 </div>
-
+<script>checkDate()</script>
 </body>
 </html>

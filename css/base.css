@@ -382,7 +382,7 @@
 	.pictures{
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-row: 1fr 1fr 1fr;
+		grid-row: 300px 300px 300px;
 		gap: 20px;
 		
 

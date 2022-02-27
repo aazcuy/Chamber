@@ -105,7 +105,6 @@
     	grid-gap: 15px;
 	}
 
-	/*------------------FORM -------------------*/
 
 	
 	form fieldset{
@@ -163,12 +162,6 @@
 		border-left: green solid 6px;
 	}
 
-
-
-
-
-
-	/*---------------------------------------*/
 
 	.hero-section{
     	grid-row: 1;

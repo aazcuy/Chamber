@@ -28,7 +28,7 @@
     header{
 		display:flex;
 		justify-content: space-evenly;
-		padding:auto;
+		padding:10px;
 		background-color:var(--light-green) ;
 		align-items: center;
 

@@ -16,7 +16,6 @@
     <script src="js/date.js"></script>
     <script src="js/visits.js"></script>
     <script src="js/currentDate.js"></script>
-    <script src="js/companies.js"></script>
     
     
     <title>Directory Ibague Chamber of Commerce</title>
@@ -46,15 +45,20 @@
             <a href=""><img class="linkedin" src="images/LI-In-Bug.png" alt="LinkedIn Image"></a>
         </div>
 
-        
+
         <main class="grid">
+            <button onclick="listView()" class="button"> &#9783</button>
+            <button onclick="cardView()" class="button"> &#9776</button>
+            <div class="row">
             <div class="cards">
+               
     
             </div>
-    
+                </div>
           </main>
 
-
+<script src="js/companies.js"></script>
+    
 
 <p id="visits-user"><span class="label">Number of Visits: </span><span class="visits"></span>
    <br> Current Page Load Timestamp: <span class="today"></span> in milliseconds.

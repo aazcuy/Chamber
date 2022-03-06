@@ -86,7 +86,7 @@
 		max-width: 3%;
 		padding:5px;
 		float: right;
-		background: white;
+		
 		
 	}
 
@@ -94,8 +94,15 @@
 		max-width: 3.5%;
 		padding:5px;
 		float: right;
-		background: white;
 		
+		
+	}
+	.facebook:hover{
+		background-color: white;
+	}
+
+	.linkedin:hover{
+		background-color: white;
 	}
 
     .mainsections{
@@ -437,6 +444,58 @@
 		text-align: center;
 	}
 
+		/*------Directory-------*/
+		
+		main .button{
+			padding-left: 60px;
+			padding-right: 60px;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		  }
+
+		.cards{
+			display:grid;
+			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+			gap:15px;
+			align-items: center;
+			justify-content: center;
+			padding: 10px;
+			background-color: var(--white);
+		}
+	
+		section{
+			padding: 10px;
+			box-shadow: 0 0 30px rgb(75, 75, 75);
+			display: grid;
+			align-items: center;
+			justify-content: center;
+		}
+	
+		section img{
+			width: auto;
+			height: 200px;
+			margin: auto;
+			margin-top: 15px;
+			
+		}
+	
+		.cards p{
+			color:#1F2421;
+			padding:8px;
+		}
+	
+		.cards h2{
+			color:#1F2421;
+			font-size: 2rem;
+	
+		}
+	
+		/*-----------------------*/
+
 	p#visits-user{
 		text-align: center;
 		display: block;
@@ -448,15 +507,16 @@
 	}
 
     .button{
-        background-color:var(--white); 
+        background-color:var(--dark-green); 
         border:none;
         padding-right:15px;
         padding-left: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
         margin:15px;
-        color:var(--dark-green);
+        color:white;
         border-radius:3px ;
+		font-size: 1.5rem;
 
 
     }
